@@ -2,5 +2,44 @@
 The stylized elements to the Tom Cruise website.
 */
 
-p{background-color:rgb(84, 171, 37)}
-h1{color:blue}
+p{
+    background-color:grey;
+}
+p a{
+    color:goldenrod
+}
+p a:hover {
+    color: black;
+}
+p::first-letter {
+    font-size: x-large;
+}
+h1 {
+    color: blue
+}
+
+#header {
+    text-align:center;
+    font-size:larger;
+    padding: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+    border: 4px solid black;
+    box-shadow:2px inset black;
+    background-color: grey;
+    background-image:url(picture.png)
+}
+
+#firstPara {
+    text-align: center;
+    padding: 5px;
+    margin-left: 130px;
+    margin-right: 130px;
+    border: 20px;
+    border-left: 20px;
+}
+
+#selector {
+    text-align: center;
+    
+}
